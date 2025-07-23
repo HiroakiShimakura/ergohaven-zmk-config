@@ -19,6 +19,20 @@
             tapping-term-ms = <150>;
             hold-while-undecided;
         };
+
+        td_point: td_point {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_POINT";
+            #binding-cells = <0>;
+            bindings = <&kp COMMA>, <&kp DOT>;
+        };
+
+        td_lang: td_lang {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_LANG";
+            #binding-cells = <0>;
+            bindings = <&kp LANG1>, <&kp LANG2>;
+        };
     };
 
     keymap {
@@ -26,10 +40,10 @@
 
         base {
             bindings = <
-&kp ESC    &kp Q  &kp W     &kp E     &kp R      &kp T                        &kp Y  &kp U  &kp I      &kp O     &kp P     &kp BSPC
-&kp TAB    &kp A  &kp S     &kp D     &kp F      &kp G                        &kp H  &kp J  &kp K      &kp L     &kp SEMI  &kp BSLH
-&kp LSHFT  &kp Z  &kp X     &kp C     &kp V      &kp B                        &kp N  &kp M  &kp COMMA  &kp DOT   &kp SQT   &kp RSHFT
-                  &kp LALT  &kp LGUI  &kp LCTRL  &mo 1  &kp SPACE    &kp RET  &mo 2  &mo 4  &kp LBKT   &kp RBKT
+&kp ESC    &kp Q  &kp W     &kp E     &kp R      &td_lang                          &kp FSLH   &kp W  &kp E           &kp A            &kp BSPC  &kp DEL
+&kp TAB    &kp G  &kp S     &kp N     &kp T      &kp K                             &kp Y      &kp I  &kp U           &kp O            &kp J     &kp ENTER
+&kp RCTRL  &kp F  &kp P     &kp M     &kp D      &kp B                             &td_point  &kp C  &kp X           &kp V            &kp Z     &kp LCTRL
+                  &kp RGUI  &kp RALT  &kp RSHFT  &mo 1     &kp SPACE    &kp SPACE  &mo 2      &mo 4  &kp LEFT_ARROW  &kp RIGHT_ARROW
             >;
 
             display-name = "Base";
