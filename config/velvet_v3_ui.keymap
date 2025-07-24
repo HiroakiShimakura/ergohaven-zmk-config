@@ -74,8 +74,8 @@
         base {
             bindings = <
 &kp ESC    &kp Q  &kp H     &kp R     &td_bar    &td_lang                          &kp FSLH   &kp W  &kp E           &kp A            &kp BSPC  &kp DEL
-&kp TAB    &kp G  &kp S     &kp N     &kp T      &kp P                             &kp Y      &kp I  &kp U           &kp O            &kp J     &kp ENTER
-&kp RCTRL  &kp K  &kp B     &kp M     &kp D      &kp F                             &td_point  &kp C  &kp X           &kp V            &kp Z     &kp LCTRL
+&kp TAB    &kp K  &kp S     &kp N     &kp T      &kp P                             &kp Y      &kp I  &kp U           &kp O            &kp J     &kp ENTER
+&kp RCTRL  &kp G  &kp B     &kp M     &kp D      &kp F                             &td_point  &kp C  &kp X           &kp V            &kp Z     &kp LCTRL
                   &kp RGUI  &kp RALT  &kp RSHFT  &mo 1     &kp SPACE    &kp SPACE  &mo 2      &mo 3  &kp LEFT_ARROW  &kp RIGHT_ARROW
             >;
 
