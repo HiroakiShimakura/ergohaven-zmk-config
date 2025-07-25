@@ -73,10 +73,10 @@
 
         base {
             bindings = <
-&kp ESC    &kp Q  &kp H     &kp R     &td_bar    &td_lang                          &kp FSLH   &kp W  &kp E           &kp A            &kp BSPC  &kp DEL
-&kp TAB    &kp K  &kp S     &kp N     &kp T      &kp P                             &kp Y      &kp I  &kp U           &kp O            &kp J     &kp ENTER
-&kp RCTRL  &kp G  &kp B     &kp M     &kp D      &kp F                             &td_point  &kp C  &kp X           &kp V            &kp Z     &kp LCTRL
-                  &kp RGUI  &kp RALT  &kp RSHFT  &mo 1     &kp SPACE    &kp SPACE  &mo 2      &mo 3  &kp LEFT_ARROW  &kp RIGHT_ARROW
+&kp ESC    &kp Q  &kp H     &kp R     &td_bar    &td_lang                          &kp FSLH   &kp W  &kp E          &kp A       &mkp MB1  &cap_sen 5 MB2
+&kp TAB    &kp K  &kp S     &kp N     &kp T      &kp P                             &kp Y      &kp I  &kp U          &kp O       &kp J     &kp ENTER
+&kp RCTRL  &kp G  &kp B     &kp M     &kp D      &kp F                             &td_point  &kp C  &kp X          &kp V       &kp Z     &kp LCTRL
+                  &kp RGUI  &kp RALT  &kp RSHFT  &mo 1     &kp SPACE    &kp SPACE  &mo 2      &mo 3  &kp BACKSPACE  &kp DELETE
             >;
 
             display-name = "Base";
@@ -84,10 +84,10 @@
 
         nav {
             bindings = <
-&trans  &none  &kp LBRC  &kp SEMICOLON  &kp RBRC  &none                        &kp KP_NUMLOCK  &kp N7        &kp N8        &kp N9          &td_comp   &none
-&trans  &none  &kp LPAR  &kp COLON      &kp RPAR  &none                        &td_yd          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &td_plus   &kp EQUAL
-&trans  &none  &kp LBKT  &kp SLASH      &kp RBKT  &none                        &kp DOT         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &td_minus  &kp CARET
-               &trans    &trans         &trans    &trans  &trans    &kp COMMA  &kp NUMBER_0    &trans        &kp UP_ARROW  &kp DOWN_ARROW
+&trans  &none  &kp LBRC  &kp SEMICOLON  &kp RBRC  &none                        &kp KP_NUMLOCK  &kp N7        &kp N8        &kp N9        &td_comp   &none
+&trans  &none  &kp LPAR  &kp COLON      &kp RPAR  &none                        &td_yd          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &td_plus   &kp EQUAL
+&trans  &none  &kp LBKT  &kp SLASH      &kp RBKT  &none                        &kp DOT         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &td_minus  &kp CARET
+               &trans    &trans         &trans    &trans  &trans    &kp COMMA  &kp NUMBER_0    &trans        &trans        &trans
             >;
 
             display-name = "Navigation";
@@ -106,10 +106,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans    &trans          &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &mo 4   &mkp MB1  &cap_sen 5 MB2  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans    &trans          &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans
+&trans  &trans  &trans          &kp UP          &trans           &trans                    &trans  &trans  &trans    &trans          &trans  &trans
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                    &trans  &mo 4   &mkp MB1  &cap_sen 5 MB2  &trans  &trans
+&trans  &trans  &trans          &trans          &trans           &trans                    &trans  &trans  &trans    &trans          &trans  &trans
+                &trans          &trans          &trans           &trans  &trans    &trans  &trans  &trans  &trans    &trans
             >;
 
             display-name = "Mouse";
