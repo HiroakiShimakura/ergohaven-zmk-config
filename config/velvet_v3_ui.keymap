@@ -115,7 +115,7 @@
 
         base {
             bindings = <
-&cap_sen 4 MB2  &td_q    &td_hf    &kp R         &kp P    &td_lang                           &kp FSLH  &kp W  &kp I     &kp O    &kp L          &mkp MB1
+&cap_sen 4 MB2  &td_q    &td_hf    &kp R         &kp P    &td_lang                           &kp FSLH  &kp W  &kp E     &kp A    &kp L          &mkp MB1
 &kp C_MENU      &kp G    &kp S     &kp N         &kp T    &kp K                              &kp Y     &kp I  &kp U     &kp O    &td_zj         &kp ENTER
 &kp LSHFT       &kp TAB  &kp B     &kp M         &kp D    &kp LCTRL                          &td_dot   &kp C  &kp X     &kp V    &kp BACKSPACE  &kp RSHFT
                          &kp LCMD  &kp LEFT_ALT  &td_bar  &mo 1      &kp LSHFT    &kp SPACE  &mo 2     &mo 3  &kp HOME  &kp END
