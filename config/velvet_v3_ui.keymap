@@ -115,10 +115,10 @@
 
         base {
             bindings = <
-&cap_sen 5 MB2  &td_q  &kp H     &kp R         &kp P    &td_lang                           &kp FSLH  &kp W  &kp E     &kp A           &kp L          &mkp MB1
-&kp TAB         &kp G  &kp S     &kp N         &kp T    &kp K                              &kp Y     &kp I  &kp U     &kp O           &td_zj         &kp ENTER
-&kp LSHFT       &kp F  &kp B     &kp M         &kp D    &kp LCTRL                          &td_dot   &kp C  &kp X     &kp V           &kp BACKSPACE  &kp RSHFT
-                       &kp LCMD  &kp LEFT_ALT  &td_bar  &mo 1      &kp LSHFT    &kp SPACE  &mo 2     &mo 3  &mkp MB1  &cap_sen 5 MB2
+&kp ESC           &kp Q  &kp H     &kp R         &kp P  &td_lang                      &kp FSLH   &kp W  &kp E     &kp A    &mkp MB1       &cap_sen 5 MB2
+&kp TAB           &kp G  &kp S     &kp N         &kp T  &kp K                         &kp Y      &kp I  &kp U     &kp O    &td_zj         &kp ENTER
+&kp LEFT_CONTROL  &kp F  &kp B     &kp M         &kp D  &kp L                         &td_dot    &kp C  &kp X     &kp V    &kp BACKSPACE  &kp DELETE
+                         &kp LCMD  &kp LEFT_ALT  &mo 1  &td_bar   &kp LSHFT    &mo 2  &kp SPACE  &mo 3  &kp HOME  &kp END
             >;
 
             display-name = "Base";
@@ -148,10 +148,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans          &kp UP_ARROW    &trans     &trans                    &trans  &trans  &trans    &trans          &trans  &trans
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans                    &trans  &trans  &mkp MB1  &cap_sen 5 MB2  &trans  &trans
-&trans  &trans  &trans          &trans          &trans     &trans                    &trans  &trans  &trans    &trans          &trans  &trans
-                &trans          &trans          &trans     &trans  &trans    &trans  &trans  &trans  &trans    &trans
+&trans  &trans  &trans          &kp UP_ARROW    &trans     &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &trans          &trans     &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+                &trans          &trans          &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "Mouse";
